@@ -1,0 +1,34 @@
+{
+    "name": "FallenBG/stickies",
+    "description": "Admin panel sticky notes for laravel-admin",
+    "type": "library",
+    "keywords": ["sticky", "stickies", "notes", "laravel-admin", "extension"],
+    "homepage": "https://github.com/FallenBG/stickies",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Daskalov",
+            "email": "TheFallenANgel.BG@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\Stickies\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\Stickies\\StickiesServiceProvider"
+            ]
+
+        }
+    }
+}

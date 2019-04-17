@@ -1,0 +1,54 @@
+/**
+ * stickies.js default theme for JavaScript, CSS and HTML
+ * @author Martin Daskalov
+ */
+
+.btn-small {
+	min-width: 30px;
+	height: 30px;
+    padding-bottom: 12px;
+    margin-bottom: -26px;
+    padding-top: 6px;
+}
+
+
+/*.token.atrule,*/
+/*.token.attr-value,*/
+/*.token.keyword {*/
+	/*color: #07a;*/
+/*}*/
+
+/*.token.entity {*/
+	/*cursor: help;*/
+/*}*/
+
+
+/*pre.line-numbers {*/
+	/*position: relative;*/
+	/*padding-left: 3.8em;*/
+	/*counter-reset: linenumber;*/
+/*}*/
+
+
+/*.line-numbers .line-numbers-rows {*/
+	/*position: absolute;*/
+	/*pointer-events: none;*/
+	/*top: 0;*/
+	/*font-size: 100%;*/
+	/*left: -3.8em;*/
+	/*width: 3em; !* works for line-numbers below 1000 lines *!*/
+	/*letter-spacing: -1px;*/
+	/*border-right: 1px solid #999;*/
+
+	/*-webkit-user-select: none;*/
+	/*-moz-user-select: none;*/
+	/*-ms-user-select: none;*/
+	/*user-select: none;*/
+
+/*}*/
+
+	/*.line-numbers-rows > span {*/
+		/*pointer-events: none;*/
+		/*display: block;*/
+		/*counter-increment: linenumber;*/
+	/*}*/
