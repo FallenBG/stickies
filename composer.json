@@ -1,5 +1,5 @@
 {
-    "name": "FallenBG/stickies",
+    "name": "fallenbg/stickies",
     "description": "Admin panel sticky notes for laravel-admin",
     "type": "library",
     "keywords": ["sticky", "stickies", "notes", "laravel-admin", "extension"],
