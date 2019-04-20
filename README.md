@@ -4,14 +4,15 @@ Stickies is a laravel-admin extension that will allow you to create sticky notes
 This extension combines [laravel-admin](https://github.com/z-song/laravel-admin) and [Post It All!](https://github.com/txusko/PostItAll)
 
 The main features are that the notes are not only localstorage saved but put into DB and loaded on refresh into the storage so nothing can be lost by mistake.
+This can be used during development for throwing notes and links for JIRA tickets for specific pages and elements for example.
 
-Each page have it's own Stickies.
+The main idea behind this package is to begin learning laravel and packages so it will be far from perfect - I'm open for suggestions.  
 
-Delete all will delete the Stickies for the current page.
+- Each page have it's own Stickies.
+- Delete all will delete the Stickies for the current page.
+- Create news Sticky with the button at the top right corner.
 
-Create news Sticky with the button at the top right corner.
-
-![alt text](https://i.imgur.com/0U2f2iU.png)
+![alt text](https://i.imgur.com/apGY0hA.png)
 
 ## Installation
 
