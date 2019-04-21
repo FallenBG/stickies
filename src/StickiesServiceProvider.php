@@ -17,8 +17,8 @@ class StickiesServiceProvider extends ServiceProvider
             exec("php ../../../../../artisan vendor:publish --provider=Encore\Stickies\StickiesServiceProvider --force");
         }
 
+        // TODO:: Investigate what is this function purpose and is it overlapping with $this->app->booted down bellow
         if (! Stickies::boot()) {
-
             return ;
         }
 

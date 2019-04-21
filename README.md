@@ -14,6 +14,11 @@ The main idea behind this package is to begin learning laravel and packages so i
 
 ![alt text](https://i.imgur.com/apGY0hA.png)
 
+## Requirements
+
+laravel-admin >= 1.6.0
+PHP >= 7.1.3
+
 ## Installation
 
 ```
