@@ -185,9 +185,11 @@ function saveStickies() {
     var stickies = [];
     for ( var i = 0, len = localStorage.length; i < len; ++i ) {
         var oKey = localStorage.key(i) ;
-        var object = {}
-        object[oKey] = localStorage.getItem(localStorage.key(i));
-        stickies.push(object);
+        if (oKey.includes('PostIt_')) {
+            var object = {}
+            object[oKey] = localStorage.getItem(localStorage.key(i));
+            stickies.push(object);
+        }
     }
 
     // Send post request to StickiesController
